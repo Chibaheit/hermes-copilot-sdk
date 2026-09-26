@@ -1,5 +1,11 @@
 # Hermes Copilot SDK
 
+> **Superseded for the current deployment:** use
+> [hermes-copilot-cli](https://github.com/Chibaheit/hermes-copilot-cli).
+> Hermes is now the coordinator and dispatches directly to Copilot CLI workers.
+> The experimental SDK provider below is retained for existing opt-in users,
+> but is no longer part of the active architecture.
+
 An **experimental, opt-in model-provider plugin** for
 [Hermes Agent](https://github.com/Chibaheit/hermes-agent), using the official
 [`github-copilot-sdk==1.0.14`](https://github.com/github/copilot-sdk/releases/tag/v1.0.14).
